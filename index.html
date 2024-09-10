@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>MusiKraft</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="style.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav id="navbar">
+    <!--Logo-->
+    <div class="logo">
+      <a href="index.html"><img src="Images/musikraft_logo.png" /></a>
+    </div>
+    <!--Hamburger menu-->
+    <div class="hamburger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+    <!--nav links-->
+    <ul class="nav-links">
+      <li>
+        <a href="#about">About Me</a>
+      </li>
+      <li>
+        <a href="#products">What I Offer</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <!--End of Navbar-->
+
+  <!--Hero-->
+  <div class="hero-container">
+    <div class="hero-image"></div>
+    <div class="hero-text">
+      <h1>MusiKraft</h1>
+      <p>Discover the joy of music with personalized guitar and vocal lessons. Whether you're a beginner or looking to
+        refine your skills, I offer patient, tailored guidance to help you achieve your musical
+        dreams at any age. Start your musical journey today!</p>
+      <button class="contactBtn">Contact Me</button>
+    </div>
+  </div>
+  <!--end of hero-->
+  <section id="about">
+    <!--About-->
+    <div class="about">
+      <div class="about-content">
+        <h2>About Me</h2>
+        <p>
+          I grew up in a family of musicians and took my first vocal lesson at 14. I studied at Shine Music School in
+          Randburg and spent four years training with RSAA, where I later became one of their vocal trainers. During
+          this time, I received various merit certificates each year and participated in numerous performance shows.
+          I’ve also achieved a Grade 5 Rock School Vocals Certificate.
+
+          I began learning guitar at 15 and continued my education with Fret Not Music School. I have a deep love for
+          all genres of music and strongly believe that music has the power to heal and transform lives.
+
+        </p>
+        </span>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="products">
+    <!--What I Offer-->
+    <div class="products">
+      <div class="cards">
+        <div class="inner-card1"> <!-- Photo by <a href="https://unsplash.com/@tenguyen?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Te NGuyen</a> on <a href="https://unsplash.com/photos/woman-carrying-brown-acoustic-guitar-Wt7XT1R6sjU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      --></div>
+        <div class="card-text">
+          <h2>Vocal Lessons</h2>
+          <p>Personalized one on one Vocal lessons from R135 a lesson</p>
+          <button class="contactBtn">Contact Me</button>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="inner-card2"><!--Photo by <a href="https://unsplash.com/@truth?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Satyawan Narinedhat</a> on <a href="https://unsplash.com/photos/selective-focus-photography-of-man-using-microphone-near-people-at-daytime-Lk73Qk1_3Fw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      --></div>
+        <div class="card-text">
+          <h2>Guitar Lessons</h2>
+          <p>Personalized one on one Guitar lessons from R135 a lesson</p>
+          <button class="contactBtn">Contact Me</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <div class="contact-details form-container">
+        <div class="contactD-inner">
+          <h3 class="form-header">Contact Me</h3>
+          <p>Email: exampleemail@gmail.com</p>
+          <p>Number: 012 345 6789</p>
+          <a href="#"><i class="fa-brands fa-square-facebook fa-2xl" style="color:  #316FF6"></i></a>
+          <a href="#"><i class="fa-brands fa-square-whatsapp fa-2xl" style="color: #25d366"></i></a>
+          <a href="#"><i class="fa-brands fa-square-instagram fa-2xl" style="color: #FF0000"></i></a>
+
+        </div>
+      </div>
+
+      <div class="form-container">
+        <h3 class="form-header">Leave your details</h3>
+        <form method="POST" action="https://formsubmit.co/email@gmail.com" enctype="multipart/form-data"
+          id="contact-form">
+          <div class="form-name">
+            <label for="name"></label>
+            <input type="text" name="name" placeholder="Enter your name" id="name-input" required>
+          </div>
+          <div class="email">
+            <label for="email"></label>
+            <input type="text" placeholder="Your email..." id="email-input" name="email" required>
+          </div>
+          <div class="number">
+            <label for="number"></label>
+            <input type="text" placeholder="Your number..." id="number-input" name="number" maxlength="10" required>
+          </div>
+          <div>
+            <select required>
+              <option disabled hidden selected>Choose your Instrument</option>
+              <option>Guitar</option>
+              <option>Vocals</option>
+            </select>
+          </div>
+          <br>
+          <div class="message">
+            <textarea name="message" class="text-area" placeholder="Any other information you would like to add..."
+              id="message_input" cols="30" rows="5" required></textarea>
+          </div>
+          <div class="submit">
+            <button type="submit" id="form_button">SEND</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Fixed Message Button -->
+  <div class="fixed-button">
+    <button id="messageButton">Whatsapp Me</button>
+  </div>
+
+  <!--Footer-->
+  <div class="footer">
+    <p> &copy; 2024 MusicKraft, All rights reserved.</p>
+  </div>
+  <script src="app.js"></script>
+
+</body>
+
+</html>
